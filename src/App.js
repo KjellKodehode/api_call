@@ -2,13 +2,13 @@
 // import "./App.css";
 // import React, { useState, useEffect } from "react";
 import Joke from "./components/Joke.jsx";
+import "./assets/css/fonts.css";
 
 function App() {
   return (
     <div className="container">
       <div>
         <Joke />
-        <button className="btn-more">One More</button>
       </div>
     </div>
   );

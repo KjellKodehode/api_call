@@ -21,14 +21,16 @@ const App = () => {
         console.log("error", error);
       }
     };
-
     fetchData();
   }, []);
   return (
     <div className="joke">
-      <h3>{joke}</h3>
-      <button>Tell me now !</button>
-      <h2>{delivery}</h2>
+      <h3 className="joke-setup">{joke}</h3>
+      {/* <button className="btn-answer">Tell me now !</button> */}
+      <h2 className="joke-delivery">{delivery}</h2>
+      <div className="container-btn">
+        <button id="btn-more">One More !</button>
+      </div>
     </div>
   );
 };
