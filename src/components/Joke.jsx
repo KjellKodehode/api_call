@@ -28,13 +28,13 @@ const App = () => {
     <div className="joke">
       <h3 className="joke-setup">{joke}</h3>
       <div className="container-btn">
-        <button utton className="btn-answer">
+        <button onClick={""} id="btn-answer">
           Tell me now !
         </button>
       </div>
       <h2 className="joke-delivery">{delivery}</h2>
       <div className="container-btn">
-        <button onClick={"setDelivery"} id="btn-more">
+        <button onClick={""} id="btn-more">
           One More !
         </button>
       </div>
