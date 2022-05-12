@@ -5,6 +5,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2,
+h3 {
+  margin: 0;
+  /* padding: 25px; */
+}
+
 .joke-setup {
   animation: setup 10s infinite;
   border-radius: 30px;
@@ -13,8 +19,10 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
   text-shadow: #daa606 1px 3px 10px;
-  padding: 50px 0 100px 50px;
+  padding: 50px 0 0 50px;
   margin-bottom: 0;
+  height: 300px;
+  max-height: 300px;
 }
 
 @keyframes setup {
@@ -35,16 +43,26 @@ body {
   }
 }
 
+.joke-setup:hover {
+  font-size: 1.9em;
+}
+
 .joke-delivery {
   font-family: "Bebas Neue", cursive;
   border-radius: 25px;
   background-color: #fce49a;
   color: #0d3029;
+  height: 300px;
+  max-height: 300px;
   font-size: 4em;
   margin-top: 0;
   text-align: center;
   text-shadow: #5a4c21 1px 3px 10px;
-  padding: 20px 20px 20px 200px;
+  padding: 20px 0px 0px 200px;
+}
+
+.joke-delivery:hover {
+  font-size: 4.1em;
 }
 
 button {
@@ -56,7 +74,7 @@ button {
   font-weight: 700;
   letter-spacing: 0.3em;
   padding: 10px 30px;
-  margin: 0;
+  margin: 25px 0;
 }
 
 button:hover {

@@ -28,9 +28,7 @@ const App = () => {
       <h3 className="joke-setup">{joke}</h3>
       {/* <button className="btn-answer">Tell me now !</button> */}
       <h2 className="joke-delivery">{delivery}</h2>
-      <div className="container-btn">
-        <button id="btn-more">One More !</button>
-      </div>
+      {/* <button onClick={} id="btn-more"> One More !</button> */}
     </div>
   );
 };
