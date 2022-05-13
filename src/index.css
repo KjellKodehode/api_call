@@ -11,8 +11,8 @@ h3 {
   /* padding: 25px; */
 }
 
-.joke-setup {
-  animation: setup 10s infinite;
+.joke-single {
+  animation: text-wave 10s infinite;
   border-radius: 30px;
   background-color: #0d473c;
   color: #fce49a;
@@ -25,7 +25,7 @@ h3 {
   max-height: 300px;
 }
 
-@keyframes setup {
+@keyframes text-wave {
   0% {
     transform: skewX(0deg);
   }
@@ -43,7 +43,7 @@ h3 {
   }
 }
 
-.joke-setup:hover {
+.joke-single:hover {
   font-size: 1.9em;
 }
 

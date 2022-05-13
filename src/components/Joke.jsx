@@ -22,22 +22,21 @@ const App = () => {
       }
     };
     fetchData();
-    // setDelivery(json.delivery);
   }, []);
   return (
     <div className="joke">
       <h3 className="joke-setup">{joke}</h3>
       <div className="container-btn">
-        <button onClick={""} id="btn-answer">
+        {/* <button onClick={""} id="btn-answer">
           Tell me now !
-        </button>
+        </button> */}
       </div>
       <h2 className="joke-delivery">{delivery}</h2>
-      <div className="container-btn">
-        <button onClick={""} id="btn-more">
+      {/* <div className="container-btn">
+        <button onClick={setJoke} id="btn-more">
           One More !
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
