@@ -12,17 +12,18 @@ h3 {
 }
 
 .joke-single {
-  animation: text-wave 10s infinite;
+  animation: text-wave 15s infinite;
   border-radius: 30px;
+  border: 1px solid plum;
   background-color: #0d473c;
   color: #fce49a;
   font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
   text-shadow: #daa606 1px 3px 10px;
-  padding: 50px 0 0 50px;
-  margin-bottom: 0;
-  height: 300px;
-  max-height: 300px;
+  padding: 50px 10px 0 50px;
+  margin: 10px;
+  height: 150px;
+  min-height: 150px;
 }
 
 @keyframes text-wave {
@@ -47,23 +48,7 @@ h3 {
   font-size: 1.9em;
 }
 
-.joke-delivery {
-  font-family: "Bebas Neue", cursive;
-  border-radius: 25px;
-  background-color: #fce49a;
-  color: #0d3029;
-  height: 300px;
-  max-height: 300px;
-  font-size: 4em;
-  margin-top: 0;
-  text-align: center;
-  text-shadow: #5a4c21 1px 3px 10px;
-  padding: 20px 0px 0px 200px;
-}
-
-.joke-delivery:hover {
-  font-size: 4.1em;
-}
+/* BUTTON */
 
 button {
   background-color: #710301;
@@ -93,4 +78,24 @@ button:active {
 .container-btn {
   display: flex;
   justify-content: center;
+}
+
+/* --------------------------- */
+
+.joke-delivery {
+  font-family: "Bebas Neue", cursive;
+  border-radius: 25px;
+  background-color: #fce49a;
+  color: #0d3029;
+  height: 300px;
+  max-height: 300px;
+  font-size: 4em;
+  margin-top: 0;
+  text-align: center;
+  text-shadow: #5a4c21 1px 3px 10px;
+  padding: 20px 0px 0px 200px;
+}
+
+.joke-delivery:hover {
+  font-size: 4.1em;
 }
